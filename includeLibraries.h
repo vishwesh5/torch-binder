@@ -2,6 +2,7 @@
 #pragma cling add_include_path("/opt/conda/include/python3.7m")
 #pragma cling add_include_path("/opt/conda/lib/")
 #pragma cling add_include_path("/opt/libtorch/include/torch/csrc/api/include/")
+#pragma cling add_include_path("/opt/libtorch/include/")
 #pragma cling load("python3.7m")
 #pragma cling add_include_path("/opt/conda/lib/python3.7/site-packages/numpy/core/include")
 #pragma cling load("/opt/libtorch/lib/libc10.so")
