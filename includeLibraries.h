@@ -1,10 +1,7 @@
 #pragma cling add_include_path("/usr/local/include/opencv4")
-#pragma cling add_include_path("/opt/conda/include/python3.7m")
 #pragma cling add_include_path("/opt/conda/lib/")
 #pragma cling add_include_path("/opt/libtorch/include/torch/csrc/api/include/")
 #pragma cling add_include_path("/opt/libtorch/include/")
-#pragma cling load("python3.7m")
-#pragma cling add_include_path("/opt/conda/lib/python3.7/site-packages/numpy/core/include")
 #pragma cling load("/opt/libtorch/lib/libc10.so")
 #pragma cling load("/opt/libtorch/lib/libcaffe2_detectron_ops.so")
 #pragma cling load("/opt/libtorch/lib/libcaffe2_module_test_dynamic.so")
@@ -58,4 +55,3 @@
 #pragma cling load("/usr/local/lib/libopencv_ximgproc.so.4.1.0")
 #pragma cling load("/usr/local/lib/libopencv_xobjdetect.so.4.1.0")
 #pragma cling load("/usr/local/lib/libopencv_xphoto.so.4.1.0")
-std::string DATA_PATH = "../data/";
